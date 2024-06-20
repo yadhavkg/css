@@ -1,0 +1,48 @@
+*/{
+    margin: 0;
+    padding: 0;
+
+}
+.parent{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+img{
+    width: 100%;
+    height: 100vh ;
+
+}
+.child{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    color: aliceblue;
+}
+    h1{
+        font-size: 100px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+p{
+    width: 50%;
+    font-style: italic;
+}
+.baby{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    border: 1px solid black;
+    top: 60%;
+    left: 50%;
+    background-color: white;
+    text-align: center;
+    
+}
+h2{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
