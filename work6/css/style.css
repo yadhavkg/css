@@ -34,8 +34,11 @@ li{
 }
 .offer{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
+    width: 20%;
+    color: white;
+    font-size: 25px;
 
 }
 .parent{
