@@ -81,7 +81,7 @@ a:hover{
     padding-top: 25%;
 }
 p{
-    width: 40%;
+    width: 50%;
     padding-left: 30%;
     padding-top: 10%;
 }
@@ -92,13 +92,31 @@ p{
 .head5{
     text-align: center;
     padding-top: 25%;
+    padding-left: 5%;
 }
 .head6{
     padding-top: 10%;
     text-align: center;
 }
-
-
+.child5,.child6{
+    position: relative;
+}
+.head7{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+.para{
+    position: absolute;
+    top: 63% ;
+    left: %;
+}
+.head8{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+/*  */
 
 
 
