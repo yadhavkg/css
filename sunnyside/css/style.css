@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    flex-wrap: wrap;
+}
+.img1{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover ;
+}
+/* navbar */
+.head1{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    font-size: 35px;
+    color: white;
+}
+.list{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    flex-wrap: wrap;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+    flex-wrap: wrap;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 13px;
+    transition: .3s;
+}
+.head2{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size: 50px;
+    color: white;
+}
+/*  */
+/* grid */
+.parent{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    flex-wrap: wrap;
+}
+.child2,.child1,.child3,.child4,.child5,.child6{
+    width: 100%;
+    height: 100%;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+}
+.img4{
+    width: 100%;
+    height: 100%;
+}
+.img5{
+    width: 100%;
+    height: 100%;
+}
+.head3{
+    text-align: center;
+    padding-top: 25%;
+}
+p{
+    width: 40%;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+.head4{
+    padding-top: 10%;
+    text-align: center;
+}
+.head5{
+    text-align: center;
+    padding-top: 25%;
+}
+.head6{
+    padding-top: 10%;
+    text-align: center;
+}
+
+
+
+
+
