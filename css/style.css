@@ -10,7 +10,7 @@
 }
 .list{
     display: flex;
-    margin-right: 150px;
+    margin-right: 250px;
 }
 li{
     margin: 20px;
@@ -18,10 +18,48 @@ li{
     color: grey;
 }
 .left{
-    margin-left: 150px;
+    margin-left: 250px;
 }
 .img2{ 
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.h1{
+    font-size: 60px;
+    width: 100%;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(216, 144, 10);
+    border: none;
+    letter-spacing: 4px;
+}
+.h2{
+    font-size: 80px;
+    padding: 30px;
+    /* text-align: center; */
+    color: rgb(236, 222, 14);
+}
+p{
+    padding: 20px;
+    color: white;
+}
+h2{
+    color: white;
+}
+.pic1,.pic2,.pic3{
+    width: 100%;
+    height: 100%;
+}
+.same{
+    font-size: 20px;
+    color: black;
+}
+.no{
+    color: rgb(224, 53, 53);
+}
+.blk{
+    color: black;
 }
